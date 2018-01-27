@@ -80,3 +80,5 @@ The difference between the Gregorian calendar and the Julian calendar.
 来自[timeanddate.com](https://www.timeanddate.com/calendar/julian-gregorian-switch.html)
 
 例如著名的**俄国十月革命**，它发生在公历1917年11月7日，但是是俄历也就是儒略历的1917年10月25日。
+
+它以耶稣诞生之年作为纪年的开始。在儒略历与格里高利历中，在耶稣诞生之后的日期，称为主的年份Anno Domini（A.D.）（拉丁）。而在耶稣诞生之前，称为主前Before Christ（B.C.）。但是现代学者为了淡化其宗教色彩以及避免非基督徒的反感而多半改称用公元(Common era，缩写为C.E.)与公元前(Before the Common Era，缩写为 B.C.E.)的说法。
