@@ -1,7 +1,5 @@
 # 日历的学问
 
-[![](https://badge.juejin.im/entry/5a7036776fb9a01c982cdc85/likes.svg?style=plastic)](https://juejin.im/entry/5a7036776fb9a01c982cdc85/detail) [![Build Status](https://travis-ci.org/liluoao/calendar.svg?branch=master)](https://travis-ci.org/liluoao/calendar)
-
 本文主要讲公历和儒略历的区别。
 The difference between the Gregorian calendar and the Julian calendar.
 
