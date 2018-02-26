@@ -18,17 +18,17 @@
 >
 > A calendar applied to dates when it was not actually in use is called proleptic. Thus, if we assume there was never a cutover and Gregorian rules always rule, we have a proleptic Gregorian calendar. This is what is used by MySQL, as is required by standard SQL. For this reason, dates prior to the cutover stored as MySQL `DATE` or `DATETIME` values must be adjusted to compensate for the difference. It is important to realize that the cutover did not occur at the same time in all countries, and that the later it happened, the more days were lost. For example, in Great Britain, it took place in 1752, when Wednesday September 2 was followed by Thursday September 14. Russia remained on the Julian calendar until 1918, losing 13 days in the process, and what is popularly referred to as its “October Revolution” occurred in November according to the Gregorian calendar.
 
-  **   **那么 `the Gregorian calendar` 和 `the Julian calendar` 分别是什么呢？
+**   **那么 `the Gregorian calendar` 和 `the Julian calendar` 分别是什么呢？
 
 ### 简介
 
-  **   the Gregorian calendar**格里高利历，是公历的标准名称，是一种源自于西方社会的历法。它先由意大利医生、天文学家、哲学家、年代学家阿洛伊修斯·里利乌斯（Aloysius Lilius，约1519-1576）与克拉乌（Christophorus Clavius）等学者在儒略历的基础上加以改革，后由教皇格里高利十三世（Pope Gregory XIII）于1582年颁布。
+    **the Gregorian calendar**格里高利历，是公历的标准名称，是一种源自于西方社会的历法。它先由意大利医生、天文学家、哲学家、年代学家阿洛伊修斯·里利乌斯（Aloysius Lilius，约1519-1576）与克拉乌（Christophorus Clavius）等学者在儒略历的基础上加以改革，后由教皇格里高利十三世（Pope Gregory XIII）于1582年颁布。
 
-  **   the Julian calendar**儒略历，是由罗马共和国独裁官儒略·恺撒（即盖乌斯·尤里乌斯·凯撒Gaius Julius Caesar）采纳数学家兼天文学家索西琴尼的计算后，于公元前45年1月1日起执行的取代旧罗马历法的一种历法。
+    **the Julian calendar**儒略历，是由罗马共和国独裁官儒略·恺撒（即盖乌斯·尤里乌斯·凯撒Gaius Julius Caesar）采纳数学家兼天文学家索西琴尼的计算后，于公元前45年1月1日起执行的取代旧罗马历法的一种历法。
 
 ### 公元来历
 
-  **   **公元即“公历纪元”，又称“西元”。它以耶稣诞生之年作为纪年的开始。在儒略历与格里高利历中，在耶稣诞生之后的日期，称为主的年份Anno Domini（`A.D.`）（拉丁）。而在耶稣诞生之前，称为主前Before Christ（`B.C.`）。但是现代学者为了淡化其宗教色彩以及避免非基督徒的反感而多半改称用公元\(Common era，缩写为C.E.\)与公元前\(Before the Common Era，缩写为 B.C.E.\)的说法。
+**   **公元即“公历纪元”，又称“西元”。它以耶稣诞生之年作为纪年的开始。在儒略历与格里高利历中，在耶稣诞生之后的日期，称为主的年份Anno Domini（`A.D.`）（拉丁）。而在耶稣诞生之前，称为主前Before Christ（`B.C.`）。但是现代学者为了淡化其宗教色彩以及避免非基督徒的反感而多半改称用公元\(Common era，缩写为C.E.\)与公元前\(Before the Common Era，缩写为 B.C.E.\)的说法。
 
 ### 历史
 
@@ -48,13 +48,13 @@
 
 ### 问题
 
-  **   **从儒略历到格里高利历，带来的问题就是需要处理因为之前的置闰方法多出来的天数。例如著名的**俄国十月革命**，它发生在公历1917年11月7日，但是是俄历也就是儒略历的1917年10月25日。这就是我们接下来要说的`Change From Julian to Gregorian Calendar`
+**   **从儒略历到格里高利历，带来的问题就是需要处理因为之前的置闰方法多出来的天数。例如著名的**俄国十月革命**，它发生在公历1917年11月7日，但是是俄历也就是儒略历的1917年10月25日。这就是我们接下来要说的`Change From Julian to Gregorian Calendar`
 
 ### Change From Julian to Gregorian Calendar
 
-  **   **在颁布**格里高利历**时，Pope Gregory XIII宣布1582年10月4日后的一天是10月15日，来清算公元325年以来积累的老账。
+**   **在颁布**格里高利历**时，Pope Gregory XIII宣布1582年10月4日后的一天是10月15日，来清算公元325年以来积累的老账。
 
-  **   **下面是一些国家在处理`Change From Julian to Gregorian Calendar`时的时间：
+**   **下面是一些国家在处理`Change From Julian to Gregorian Calendar`时的时间：
 
 | Year of Switch | Country | Days Removed |
 | --- | --- | --- |
@@ -69,7 +69,7 @@
 | 1923 | Greece, | 13 days |
 | 1926/1927 | Turkey, | 13 days |
 
-  **   **来自[timeanddate.com](https://www.timeanddate.com/calendar/julian-gregorian-switch.html)
+**   **来自[timeanddate.com](https://www.timeanddate.com/calendar/julian-gregorian-switch.html)
 
 ### 月份的命名：
 
